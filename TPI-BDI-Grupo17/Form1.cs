@@ -45,5 +45,11 @@ namespace TPI_BDI_Grupo17
             FormTomasLiendo formTomasLiendo = new FormTomasLiendo();
             formTomasLiendo.ShowDialog();
         }
+
+        private void ejecutarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormFrancoDelGiudice formTomasLiendo = new FormFrancoDelGiudice();
+            formTomasLiendo.ShowDialog();
+        }
     }
 }
