@@ -58,6 +58,12 @@
     <Compile Include="FormFrancoDelGiudice.Designer.cs">
       <DependentUpon>FormFrancoDelGiudice.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormIgnacioRosso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormIgnacioRosso.Designer.cs">
+      <DependentUpon>FormIgnacioRosso.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormTomasLiendo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +78,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormFrancoDelGiudice.resx">
       <DependentUpon>FormFrancoDelGiudice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormIgnacioRosso.resx">
+      <DependentUpon>FormIgnacioRosso.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormTomasLiendo.resx">
       <DependentUpon>FormTomasLiendo.cs</DependentUpon>

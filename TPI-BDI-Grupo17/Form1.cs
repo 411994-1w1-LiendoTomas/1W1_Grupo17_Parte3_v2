@@ -51,5 +51,11 @@ namespace TPI_BDI_Grupo17
             FormFrancoDelGiudice formTomasLiendo = new FormFrancoDelGiudice();
             formTomasLiendo.ShowDialog();
         }
+
+        private void ejecutarToolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+            FormIgnacioRosso formIgnacioRosso = new FormIgnacioRosso();
+            formIgnacioRosso.ShowDialog();
+        }
     }
 }

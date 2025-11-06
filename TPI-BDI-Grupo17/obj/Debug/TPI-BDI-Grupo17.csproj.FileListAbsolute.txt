@@ -23,3 +23,17 @@ C:\Users\DigiAssist\Source\Repos\1W1_Grupo17_Parte3_v2\TPI-BDI-Grupo17\obj\Debug
 C:\Users\DigiAssist\Source\Repos\1W1_Grupo17_Parte3_v2\TPI-BDI-Grupo17\obj\Debug\TPI-BDI-Grupo17.csproj.CoreCompileInputs.cache
 C:\Users\DigiAssist\Source\Repos\1W1_Grupo17_Parte3_v2\TPI-BDI-Grupo17\obj\Debug\TPI-BDI-Grupo17.exe
 C:\Users\DigiAssist\Source\Repos\1W1_Grupo17_Parte3_v2\TPI-BDI-Grupo17\obj\Debug\TPI-BDI-Grupo17.pdb
+C:\Users\Tomas\Source\Repos\1W1_Grupo17_Parte3_v3\TPI-BDI-Grupo17\bin\Debug\TPI-BDI-Grupo17.exe.config
+C:\Users\Tomas\Source\Repos\1W1_Grupo17_Parte3_v3\TPI-BDI-Grupo17\bin\Debug\TPI-BDI-Grupo17.exe
+C:\Users\Tomas\Source\Repos\1W1_Grupo17_Parte3_v3\TPI-BDI-Grupo17\bin\Debug\TPI-BDI-Grupo17.pdb
+C:\Users\Tomas\Source\Repos\1W1_Grupo17_Parte3_v3\TPI-BDI-Grupo17\obj\Debug\TPI-BDI-Grupo17.csproj.AssemblyReference.cache
+C:\Users\Tomas\Source\Repos\1W1_Grupo17_Parte3_v3\TPI-BDI-Grupo17\obj\Debug\TPI-BDI-Grupo17.exe.config
+C:\Users\Tomas\Source\Repos\1W1_Grupo17_Parte3_v3\TPI-BDI-Grupo17\obj\Debug\TPI_BDI_Grupo17.Form1.resources
+C:\Users\Tomas\Source\Repos\1W1_Grupo17_Parte3_v3\TPI-BDI-Grupo17\obj\Debug\TPI_BDI_Grupo17.FormFrancoDelGiudice.resources
+C:\Users\Tomas\Source\Repos\1W1_Grupo17_Parte3_v3\TPI-BDI-Grupo17\obj\Debug\TPI_BDI_Grupo17.FormTomasLiendo.resources
+C:\Users\Tomas\Source\Repos\1W1_Grupo17_Parte3_v3\TPI-BDI-Grupo17\obj\Debug\TPI_BDI_Grupo17.Properties.Resources.resources
+C:\Users\Tomas\Source\Repos\1W1_Grupo17_Parte3_v3\TPI-BDI-Grupo17\obj\Debug\TPI-BDI-Grupo17.csproj.GenerateResource.cache
+C:\Users\Tomas\Source\Repos\1W1_Grupo17_Parte3_v3\TPI-BDI-Grupo17\obj\Debug\TPI-BDI-Grupo17.csproj.CoreCompileInputs.cache
+C:\Users\Tomas\Source\Repos\1W1_Grupo17_Parte3_v3\TPI-BDI-Grupo17\obj\Debug\TPI-BDI-Grupo17.exe
+C:\Users\Tomas\Source\Repos\1W1_Grupo17_Parte3_v3\TPI-BDI-Grupo17\obj\Debug\TPI-BDI-Grupo17.pdb
+C:\Users\Tomas\Source\Repos\1W1_Grupo17_Parte3_v3\TPI-BDI-Grupo17\obj\Debug\TPI_BDI_Grupo17.FormIgnacioRosso.resources
