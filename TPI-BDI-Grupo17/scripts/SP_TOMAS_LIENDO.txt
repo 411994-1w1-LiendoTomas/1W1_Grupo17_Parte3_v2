@@ -1,0 +1,47 @@
+CREATE PROCEDURE SP_Consulta_Tomas_Liendo
+    -- Parámetros que se recibirán desde la app C#
+    @FechaDesde DATE,
+    @FechaHasta DATE
+AS
+BEGIN
+    -- Evita que SQL Server envíe mensajes de "filas afectadas"
+    SET NOCOUNT ON;
+
+    -- Es tu consulta original , pero los rangos de fecha
+    -- fijos se reemplazan por las variables @FechaDesde y @FechaHasta
+    SELECT TOP 5
+        G.descripcion AS 'Género',
+        c.descripcion AS 'Clasificación',
+        DATENAME(WEEKDAY, f.dia) AS 'Día',
+        f.horario AS 'Hora',
+        COUNT(e.id) AS 'Número de Entradas',
+        SUM(e.precio_base) AS 'Recaudación Total'
+    FROM Peliculas p
+    JOIN Clasificaciones c ON c.id = p.id_clasificacion
+    JOIN Peliculas_Generos pg ON pg.id_pelicula = p.id
+    JOIN Generos g ON g.id = pg.id_genero
+    JOIN Funciones f ON f.id_pelicula = p.id
+    JOIN Entradas e ON e.id_funcion = f.id
+    WHERE 
+        -- Aquí está el reemplazo:
+        f.dia BETWEEN @FechaDesde AND @FechaHasta
+        
+        -- Y aquí la subconsulta que también usa las variables:
+        AND DATENAME(WEEKDAY, f.dia) NOT IN (
+            SELECT TOP 1 DATENAME(WEEKDAY, f2.dia)
+            FROM Entradas e2
+            JOIN Funciones f2 ON f2.id = e2.id_funcion
+            WHERE 
+                -- Aquí está el segundo reemplazo:
+                f2.dia BETWEEN @FechaDesde AND @FechaHasta
+            GROUP BY DATENAME(WEEKDAY, f2.dia)
+            ORDER BY COUNT(e2.id) DESC
+        )
+    GROUP BY
+        g.descripcion,
+        c.descripcion,
+        DATENAME(WEEKDAY, f.dia),
+        f.horario
+    ORDER BY
+        COUNT(e.id) DESC;
+END
